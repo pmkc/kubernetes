@@ -156,7 +156,7 @@ func runCompletionZsh(out io.Writer, boilerPlate string, kubectl *cobra.Command)
 __kubectl_bash_source() {
 	alias shopt=':'
 	alias _expand=_bash_expand
-	alias _complete=_bash_comp
+	alias _complete=_bash_complete
 	emulate -L sh
 	setopt kshglob noshglob braceexpand
 
